@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "";
+global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/4i2tpg.mp4";
 global.waPresence = process.env.WAPRESENCE || "online";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -51,7 +51,7 @@ module.exports = {
   caption: process.env.CAPTION || "you're using first powerful bot to be released in Tanzania| enjoy your time| this is 𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑 𝐌𝐃",
   author: process.env.PACK_AUTHER || "VENOCYBER",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOCYBER-𝐌𝐃",
+  botname: process.env.BOT_NAME || "CYLEETECH",
   ownername: process.env.OWNER_NAME || "VENOCYBER",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
